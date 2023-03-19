@@ -1,13 +1,16 @@
+/* This function sets the page to cover the entire screen. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* This function makes the body of the page white. */
 body {
     background-color: #d9dcd6;
 }
 
+/* This function sets the header to be blue, the text white, the size, and finally gives a couple diffrent text styles. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* This function sets font size for header and location of text */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* This function changes the "seo" from horiseon to a diffrent tint of white. */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* This function spaces, chages text size, and font on the divs. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,24 @@ body {
     font-size: 20px;
 }
 
+/* This function removes dotted list. */
 .header div ul {
     list-style-type: none;
 }
 
+/* This function sets location of links on header. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This function sets links color and removes underline. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* This function formats the size and position of the large picture. */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +65,31 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* This function formats all of the boxes. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* This function sets paragraph font size.*/
+p {
+    font-size: 16px;
+}
+
+/* This function sets text location for the boxes on the left. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* This function sets text location for the box on the right. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* This function formats all of the benefit section. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/* This function sets the color of the lead benfit and helps space*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*  TODO Merge with benefit lead and rename!!!!!!*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* TODO refer to the element above!!!!!! */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* This function centers text and adds some space under benfit. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*TODO merge with the above element<----*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* TODO see above<---*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* This function sets the pictures location of the picture and spaces text under the benefits. */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Todo merge with above*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* TODO merge with above*/  
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* This will make a box around the search-engine section. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* Todo merge with above */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* Todo merge with above*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/* This function reduces the size of the image. */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* Todo merge with above */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* TODO merge with above*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* This function sets the size of the text and spaces it out from the info. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Todo merge with above */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Todo merge with above */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* this function sets the size of the footer, text type, centers everything */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/* this function sets all of the text in the footer. */
 .footer h2 {
     font-size: 20px;
 }
